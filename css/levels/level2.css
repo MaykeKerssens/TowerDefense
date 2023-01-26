@@ -1,0 +1,40 @@
+.p1{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    /* Links naar rechts */
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+.p2{
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.p3{
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+.p4{
+    grid-row-start: 4;
+    grid-row-end: 8;
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.p5{
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+    grid-column-start: 4;
+    grid-column-end: 11;
+}
