@@ -1,0 +1,69 @@
+.p1{
+    /* boven naar beneden */
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+    /* Links naar rechts */
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+.p2{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 8;
+
+    /* Links naar rechts */
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+.p3{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    /* Links naar rechts */
+    grid-column-start: 4;
+    grid-column-end: 8;
+}
+
+.p4{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    /* Links naar rechts */
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.p5{
+    /* boven naar beneden */
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    /* Links naar rechts */
+    grid-column-start: 4;
+    grid-column-end: 10;
+}
+
+.p6{
+    /* boven naar beneden */
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+    /* Links naar rechts */
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
+
+.p7{
+    /* boven naar beneden */
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    /* Links naar rechts */
+    grid-column-start: 9;
+    grid-column-end: 11;
+}
