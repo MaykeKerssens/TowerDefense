@@ -6,10 +6,12 @@ html{
 .map{
     display: grid;
     background-color: greenyellow;
-    width: 1300px;
-    height: 800px;
-    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:     1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    border: 5px grey solid;
+    width: 1000px;
+    height: 700px;
+    grid-template-columns:  repeat(10, 1fr);
+    grid-template-rows:     repeat(8, 1fr);
 }
 
 .tile{
