@@ -1,0 +1,92 @@
+.p1{
+    /* boven naar beneden */
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    /* Links naar rechts */
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.p2{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+    /* Links naar rechts */
+    grid-column-start: 2;
+    grid-column-end: 3;    
+}
+
+.p3{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    /* Links naar rechts */
+    grid-column-start: 2;
+    grid-column-end: 6;    
+}
+
+.p4{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 7;
+
+    /* Links naar rechts */
+    grid-column-start: 5;
+    grid-column-end: 6;    
+}
+
+.p5{
+    /* boven naar beneden */
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    /* Links naar rechts */
+    grid-column-start: 3;
+    grid-column-end: 6;    
+}
+
+.p6{
+    /* boven naar beneden */
+    grid-row-start: 6;
+    grid-row-end: 9;
+
+    /* Links naar rechts */
+    grid-column-start: 3;
+    grid-column-end: 4;    
+}
+
+.p7{
+    /* boven naar beneden */
+    grid-row-start: 8;
+    grid-row-end: 9;
+
+    /* Links naar rechts */
+    grid-column-start: 3;
+    grid-column-end: 9;    
+}
+
+.p8{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 9;
+
+    /* Links naar rechts */
+    grid-column-start: 8;
+    grid-column-end: 9;    
+}
+
+.p9{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    /* Links naar rechts */
+    grid-column-start: 8;
+    grid-column-end: 11;    
+}
+
+
+
