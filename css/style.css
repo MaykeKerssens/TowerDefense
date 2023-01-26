@@ -13,8 +13,8 @@ html{
     border: 5px grey solid;
     width: 1000px;
     height: 700px;
-    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:     1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  repeat(10, 1fr);
+    grid-template-rows:     repeat(8, 1fr);
 }
 
 .tile{
