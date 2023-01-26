@@ -3,10 +3,14 @@ html{
     justify-content: center;
 }
 
+.header{
+    width: 100%;
+}
+
 .map{
     display: grid;
     background-color: greenyellow;
-    margin: auto;
+    margin: 5% auto auto auto;
     border: 5px grey solid;
     width: 1000px;
     height: 700px;

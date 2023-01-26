@@ -20,3 +20,40 @@
     grid-column-start: 6;
     grid-column-end: 11;
 }
+
+.waypoint1{
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint3{
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint4{
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    grid-column-start: 10;
+    grid-column-end: 11;
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
