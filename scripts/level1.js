@@ -1,18 +1,14 @@
-
+let livesEl = document.getElementById("lives");
+let lives = 20;
 
 window.onload = function() {
-    let p1 = document.getElementById("p1");
-    let p2 = document.getElementById("p2");
-    let p3 = document.getElementById("p3");
-    let p4 = document.getElementById("p4");
+    livesEl.innerHTML = ("Lives: " + lives);
 
-    let map = document.getElementById("map");
-    
     for (let i = 1; i < 67; i++) {
         let tile = document.createElement("div");
+        tile.classList.add("tile");
+
         map.appendChild(tile);
-        
-        tile.classList.add("tile");    
     }
 };
 
@@ -21,6 +17,16 @@ let roundActive = false;
 
 function start(){
 
+    for (let i = 1; i <= 9; i++) {
+        let p = eval("p" + i);
+        if (p) {
+            waypoints.push(new Waypoint(p.getBoundingClientRect().left + 5, p.getBoundingClientRect().top + 5));
+        } else {
+            break;
+        }
+    }
+    console.log(waypoints);
+
     if(!roundActive){
         roundActive = true
         if(round == 1){
@@ -28,7 +34,7 @@ function start(){
         }
     }
     else{
-        alert("round is already active!")
+        alert("round is already active!");
     }
 
 };
@@ -37,7 +43,9 @@ let i = 1;
 
 function round1(){
     setTimeout(function(){
-        console.log(i);
+
+        mus();
+
         i++;
         
         if(i <= 11){
@@ -49,5 +57,5 @@ function round1(){
                 round1();
             }
         }
-    }, 1000);
-}
+    }, 3000);
+};
