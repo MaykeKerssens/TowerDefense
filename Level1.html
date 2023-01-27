@@ -8,33 +8,29 @@
     <link rel="stylesheet" href="css//levels/level1.css">
     <title>TowerDefense</title>
 </head>
-<header>
-    <a href="index.html">HOME</a>
-</header>
 <body>
+    <a href="index.html" class="header">HOME</a>
+    <p id="lives"></p>
     <div class="map" id="map">
-        <div class="enemy">
+        <div class="path-tile p1">
 
         </div>
-        <div class="path-tile tile p1">
-
-        </div>
-        <div class="path-tile tile p2">
+        <div class="path-tile p2">
     
         </div>
-        <div class="path-tile tile p3">
+        <div class="path-tile p3">
     
         </div>
-        <div class="waypoint1 tile" id="p1">
+        <div class="waypoint1" id="p1">
     
         </div>
-        <div class="waypoint2 tile" id="p2">
+        <div class="waypoint2" id="p2">
     
         </div>
-        <div class="waypoint3 tile" id="p3">
+        <div class="waypoint3" id="p3">
     
         </div>
-        <div class="waypoint4 tile" id="p4">
+        <div class="waypoint4" id="p4">
     
         </div>
     </div>
@@ -43,5 +39,7 @@
     
     
     <script src="scripts/level1.js"></script>
+    <script src="scripts/enemies.js"></script>
+    <script src="scripts/pathing.js"></script>
 </body>
 </html>
