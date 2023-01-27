@@ -1,3 +1,5 @@
+
+/*==================== Paths ====================*/
 .p1{
     /* boven naar beneden */
     grid-row-start: 7;
@@ -66,4 +68,103 @@
     /* Links naar rechts */
     grid-column-start: 9;
     grid-column-end: 11;
+}
+
+
+/*==================== Waypoints ====================*/
+.waypoint1{
+    /* boven naar beneden */
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+    /* Links naar rechts */
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint2{
+    /* boven naar beneden */
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+    /* Links naar rechts */
+    grid-column-start: 7;
+    grid-column-end: 8;
+
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint3{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    /* Links naar rechts */
+    grid-column-start: 7;
+    grid-column-end: 8;
+
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint4{
+    /* boven naar beneden */
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+    /* Links naar rechts */
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint5{
+    /* boven naar beneden */
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    /* Links naar rechts */
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint6{
+    /* boven naar beneden */
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    /* Links naar rechts */
+    grid-column-start: 9;
+    grid-column-end: 10;
+
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint7{
+    /* boven naar beneden */
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    /* Links naar rechts */
+    grid-column-start: 9;
+    grid-column-end: 10;
+
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
+}
+.waypoint8{
+    /* boven naar beneden */
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    /* Links naar rechts */
+    grid-column-start: 10;
+    grid-column-end: 11;
+
+    background-color: rgba(0, 255, 255, 0.432);
+    z-index: 5;
 }
